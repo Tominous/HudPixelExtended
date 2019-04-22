@@ -143,7 +143,7 @@ public class ModularGuiHelper implements McColorHelper {
     private static ArrayList<String> processAfterstats() {
         ArrayList<String> renderList = new ArrayList<String>();
 
-        //if (!GameDetector.shouldProcessAfterstats()) return renderList;
+        if (!GameDetector.shouldProcessAfterstats()) return renderList;
 
         /*
          * bitte was schönes hinmachen :D
