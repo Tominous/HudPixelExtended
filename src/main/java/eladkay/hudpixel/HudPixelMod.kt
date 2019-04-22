@@ -133,7 +133,7 @@ class HudPixelMod {
                 //NO-OP
             }
 
-            //public static boolean isFastRender() { return gameSettings.ofFastRender; }
+            public static boolean isFastRender() { return gameSettings.ofFastRender; }
 
         } catch (e: Exception) {
             this.logWarn("An exception occured in preInit(). Stacktrace below.")
